@@ -22,7 +22,9 @@ const handleCancelBooking = (booId: string) => {
 
 </script>
 <template>
-  <div class="max-w-2xl mx-auto mt-10 p-4">
+
+  <h1 class="text-2xl text-center font-bold mb-6">Daftar Booking</h1>
+  <div class="max-w-2xl  mx-auto mt-10 p-4">
     <div v-if="bookings.length === 0" class="text-center text-stone-500">
       <h1 class="text-3xl font-medium">TIDAK ADA BOOKING</h1>
     </div>

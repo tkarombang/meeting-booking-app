@@ -8,7 +8,7 @@ const rooms = roomStore.rooms
 
 <template>
   <div>
-    <h2 class="text-xl font-bold mb-4">Daftar Ruang Meeting</h2>
+    <h2 class="text-2xl text-center font-bold mb-4">Daftar Ruang Meeting</h2>
     <div v-for="room in rooms" :key="room.id" class="border p-4 rounded mb-4">
       <p><strong>Nama: </strong>{{ room.name }}</p>
       <p><strong>Kapasitas: </strong>{{ room.capacity }}</p>
