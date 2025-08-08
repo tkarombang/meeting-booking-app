@@ -10,6 +10,7 @@
     <!-- KOMPONEN DAFTAR RUANG -->
     <RoomList />
     <Availability />
+    <BookingForm />
 
 
 

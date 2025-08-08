@@ -8,35 +8,6 @@ const bookingStore = useBookingStore();
 
 onMounted(() => {
   bookingStore.loadBookings();
-  const dummyBookings = [
-    {
-      id: '1',
-      roomId: 'R-01', // Pastikan ID ini cocok dengan ID ruangan yang ada
-      user: 'Andi Nugraha',
-      date: '2025-08-08',
-      startTime: '09:00',
-      endTime: '10:00'
-    },
-    {
-      id: '2',
-      roomId: 'R-02',
-      user: 'Budi Santoso',
-      date: '2025-08-08',
-      startTime: '10:30',
-      endTime: '12:00'
-    },
-    {
-      id: '3',
-      roomId: 'R-01',
-      user: 'Citra Kirana',
-      date: '2025-08-09',
-      startTime: '14:00',
-      endTime: '15:30'
-    }
-  ];
-
-  localStorage.setItem('bookings', JSON.stringify(dummyBookings));
-
   console.log('Bookings:', bookingStore.bookings);
 })
 

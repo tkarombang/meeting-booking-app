@@ -27,6 +27,7 @@ mini-booking-app/
 │ ├── components/
 │ │ ├── Availability.vue # Room availability component
 │ │ └── RoomList.vue # Room listing component
+│ │ └── BookingForm.vue # UI Test Data component
 │ │
 │ ├── pages/
 │ │ └── index.vue # Main application page

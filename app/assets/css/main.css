@@ -5,6 +5,6 @@ html {
 }
 
 body {
-  color: light-dark(#333, #fafafa);
-  background-color: light-dark(#4e4e4e, #121212);
+  color: light-dark(#514545, #d9d3d3);
+  background-color: light-dark(#f9f9f9ff, #282727);
 }
