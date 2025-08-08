@@ -12,8 +12,5 @@
     <Availability />
     <BookingForm />
 
-
-
-    <!-- KOMPONEN LAIN AKAN DITAMBAHKAN -->
   </div>
 </template>

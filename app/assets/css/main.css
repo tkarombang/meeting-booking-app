@@ -8,3 +8,27 @@ body {
   color: light-dark(#514545, #d9d3d3);
   background-color: light-dark(#f9f9f9ff, #282727);
 }
+/* 
+[popover] {
+  background: light-dark(#f9f9f9ff, #282727);
+  color: light-dark(#514545, #d9d3d3);
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  max-width: 20ch;
+  line-height: 1.4;
+  top: 2rem;
+  margin: 0 auto;
+  translate: 0 -22rem;
+  transition: translate 0.5s ease-out, display 0.5s ease-out allow-discrete;
+}
+
+[popover]:popover-open {
+  translate: 0 0;
+}
+
+@starting-style {
+  [popover]:popover-open {
+    translate: 0 -22rem;
+  }
+} */
